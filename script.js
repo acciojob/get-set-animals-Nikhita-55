@@ -1,12 +1,12 @@
 //complete this code
 class Animal {
   constructor(species) {
-    this._species = species; // Store species in a private variable
+    this.species = species; // Store species in a private variable
   }
 
   // Getter for species
   get species() {
-    return this._species;
+    return this.species;
   }
 
   // Method to make a sound
